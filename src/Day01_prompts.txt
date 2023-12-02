@@ -1,0 +1,4 @@
+Day 1:
+https://chat.openai.com/share/460f70ca-8f9c-4f76-8083-292759167a24
+Got part 1 on first try, had to basically provide the answer for part 2
+
