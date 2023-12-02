@@ -2,7 +2,7 @@
 
 Welcome to the Advent of Code[^aoc] Kotlin project created by [ostersc][github] using the [Advent of Code Kotlin Template][template] delivered by JetBrains.
 
-In this repository, ostersc is about to provide solutions for the puzzles using [Kotlin][kotlin] language.
+In this repository, ostersc is about to provide solutions for the puzzles using [Kotlin][kotlin] language, using ChatGPT (gpt4) to solve the solutions.  The goal is to be able to do a complete copy/paste of the full working solution for both parts.
 
 If you're stuck with Kotlin-specific questions or anything related to this template, check out the following resources:
 
