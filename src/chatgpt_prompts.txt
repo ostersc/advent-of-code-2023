@@ -1,0 +1,7 @@
+Day 1:
+https://chat.openai.com/share/3ac399bd-4796-4f7f-82d8-caa70d16588d
+Got part 1 on first try, had to basically provide the answer for part 2
+
+Day 2:
+https://chat.openai.com/share/3ac399bd-4796-4f7f-82d8-caa70d16588d
+Got part 1 on first try, had help it with several compiler errors for part 2, but it had no logic issues
