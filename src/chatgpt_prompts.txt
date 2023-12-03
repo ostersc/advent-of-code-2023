@@ -5,3 +5,9 @@ Got part 1 on first try, had to basically provide the answer for part 2
 Day 2:
 https://chat.openai.com/share/3ac399bd-4796-4f7f-82d8-caa70d16588d
 Got part 1 on first try, had help it with several compiler errors for part 2, but it had no logic issues
+
+Day 3:
+https://chat.openai.com/share/0fd4a464-d61d-4e81-98f4-ffa3b9ab928c
+Got both parts wrong on initial tries, but interestingly was able to correct both with little
+to no logic input other than it being wrong.  It did need me to provide the full input to see
+that there were more "symbols" than just the ones in the test input.
