@@ -13,7 +13,7 @@ to no logic input other than it being wrong.  It did need me to provide the full
 that there were more "symbols" than just the ones in the test input.
 
 Day 4:
-https://chat.openai.com/share/24a95b94-61b0-4a61-84d8-674c1c7f6fe4
+https://chat.openai.com/share/dd553f51-cfd8-40cc-8d44-ff0853647144
 Generated compiler errors again with type ambiguity on sumOf. It got the solution eventually by using a different approach.
 When doing part2 it omitted part1 again, even though I specifically told it not to do that.
 It got it on the first try though, but had some unused code I asked it to remove.
