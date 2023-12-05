@@ -11,3 +11,9 @@ https://chat.openai.com/share/0fd4a464-d61d-4e81-98f4-ffa3b9ab928c
 Got both parts wrong on initial tries, but interestingly was able to correct both with little
 to no logic input other than it being wrong.  It did need me to provide the full input to see
 that there were more "symbols" than just the ones in the test input.
+
+Day 4:
+https://chat.openai.com/share/24a95b94-61b0-4a61-84d8-674c1c7f6fe4
+Generated compiler errors again with type ambiguity on sumOf. It got the solution eventually by using a different approach.
+When doing part2 it omitted part1 again, even though I specifically told it not to do that.
+It got it on the first try though, but had some unused code I asked it to remove.
