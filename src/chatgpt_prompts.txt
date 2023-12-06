@@ -25,3 +25,8 @@ part2 it fell for the naive approach trap and did several iterations of running 
 I had to give it the insight to reverse the problem, and then it got it right away.  Funnily, it also reimplemented
 part1 with this "insight" and caused it to run for over a minute.  Once I asked it to stick with brute force for part1
 and the reverse approach for part2, the whole thing ran in a couple seconds.
+
+Day 6:
+https://chat.openai.com/share/d8014b5d-83ce-45b4-a22d-b3e1ba1232e4
+It got the answer for part1 fairly quickly after stumbling on the input format and a few compiler errors.
+Part2 was pretty straightforward (surprisingly), really only need it to self correct when we overflowed the Int.
