@@ -2,18 +2,22 @@ fun main() {
     fun mapValue(map: List<List<Long>>, value: Long): Long {
         for (entry in map) {
             if (entry.size >= 3 && value in entry[1] until entry[1] + entry[2]) {
-                val mappedValue = entry[0] + (value - entry[1])
-                return mappedValue
+                return entry[0] + (value - entry[1])
             }
         }
         return value // Return the same value if no mapping is found
     }
 
-    fun part1(input: List<String>): Long {
-        val sections = input.joinToString("\n").split("\n\n")
-        val seeds = sections[0].split(": ")[1].split(" ").filter { it.isNotEmpty() }.map { it.toLong() }
+    fun processSeed(maps: List<List<List<Long>>>, seed: Long): Long {
+        var current = seed
+        maps.forEach { map ->
+            current = mapValue(map, current)
+        }
+        return current
+    }
 
-        // Create a list of maps for each category, ensuring each map line has at least 3 elements
+    fun processRanges(input: List<String>, seedRanges: List<Pair<Long, Long>>): Long {
+        val sections = input.joinToString("\n").split("\n\n")
         val maps = sections.drop(1).map { section ->
             section.split("\n").drop(1).mapNotNull { line ->
                 line.split(" ").filter { it.isNotEmpty() }.let {
@@ -22,19 +26,29 @@ fun main() {
             }
         }
 
-        // Apply mappings sequentially for each seed
-        return seeds.map { seed ->
-            var current = seed
-            maps.forEachIndexed { index, map ->
-                current = mapValue(map, current)
+        var minLocation = Long.MAX_VALUE
+        for ((start, length) in seedRanges) {
+            for (seed in start until start + length) {
+                val location = processSeed(maps, seed)
+                if (location < minLocation) {
+                    minLocation = location
+                    // Early exit if we find a seed mapping to 0 as it's the minimum possible
+                    if (minLocation == 0L) return 0L
+                }
             }
-            current
-        }.minOrNull() ?: Long.MAX_VALUE
+        }
+        return minLocation
+    }
+
+    fun part1(input: List<String>): Long {
+        val seedValues = input.first().split(": ")[1].split(" ").filter { it.isNotEmpty() }.map { it.toLong() }
+        return processRanges(input, seedValues.map { it to 1L })
     }
 
     fun part2(input: List<String>): Long {
-        // Placeholder for part 2 implementation
-        return input.size.toLong()
+        val seedRangeValues = input.first().split(": ")[1].split(" ").filter { it.isNotEmpty() }.map { it.toLong() }
+        val seedRanges = seedRangeValues.windowed(2, 2, false).map { (start, length) -> start to length }
+        return processRanges(input, seedRanges)
     }
 
     // Test input
@@ -76,9 +90,9 @@ fun main() {
     check(part1(testInput) == 35L)
 
     // Uncomment and use these when real input is available
-    // val input = readInput("Day05")
-    // println("Part 1 result: ${part1(input)}")
-    // println("Part 2 result: ${part2(input)}")
+     val input = readInput("Day05")
+     println("Part 1 result: ${part1(input)}")
+     println("Part 2 result: ${part2(input)}")
 }
 
 // You may want to add helper functions or data classes if necessary.
