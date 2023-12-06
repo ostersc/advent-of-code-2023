@@ -17,3 +17,11 @@ https://chat.openai.com/share/dd553f51-cfd8-40cc-8d44-ff0853647144
 Generated compiler errors again with type ambiguity on sumOf. It got the solution eventually by using a different approach.
 When doing part2 it omitted part1 again, even though I specifically told it not to do that.
 It got it on the first try though, but had some unused code I asked it to remove.
+
+Day 5:
+https://chat.openai.com/share/5308dad8-8ede-43fd-97a7-e7710857818d
+It failed multiple times on part 1. interestingly this is the first time it added debugging output. which helped it solve it
+part2 it fell for the naive approach trap and did several iterations of running out of memory or running forever.
+I had to give it the insight to reverse the problem, and then it got it right away.  Funnily, it also reimplemented
+part1 with this "insight" and caused it to run for over a minute.  Once I asked it to stick with brute force for part1
+and the reverse approach for part2, the whole thing ran in a couple seconds.
