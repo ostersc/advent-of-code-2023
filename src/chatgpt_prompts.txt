@@ -1,22 +1,12 @@
-Day 1:
-https://chat.openai.com/share/3ac399bd-4796-4f7f-82d8-caa70d16588d
-Got part 1 on first try, had to basically provide the answer for part 2
+Day 7:
 
-Day 2:
-https://chat.openai.com/share/3ac399bd-4796-4f7f-82d8-caa70d16588d
-Got part 1 on first try, had help it with several compiler errors for part 2, but it had no logic issues
+Lots of rounds of compiler errors for some reason.  Then it got to a solution to the test input that failed the full file
+and gave up, telling me tips for how to debug.  I then provided it the full input and it said there was too much to analyze.
 
-Day 3:
-https://chat.openai.com/share/0fd4a464-d61d-4e81-98f4-ffa3b9ab928c
-Got both parts wrong on initial tries, but interestingly was able to correct both with little
-to no logic input other than it being wrong.  It did need me to provide the full input to see
-that there were more "symbols" than just the ones in the test input.
-
-Day 4:
-https://chat.openai.com/share/dd553f51-cfd8-40cc-8d44-ff0853647144
-Generated compiler errors again with type ambiguity on sumOf. It got the solution eventually by using a different approach.
-When doing part2 it omitted part1 again, even though I specifically told it not to do that.
-It got it on the first try though, but had some unused code I asked it to remove.
+Day 6:
+https://chat.openai.com/share/d8014b5d-83ce-45b4-a22d-b3e1ba1232e4
+It got the answer for part1 fairly quickly after stumbling on the input format and a few compiler errors.
+Part2 was pretty straightforward (surprisingly), really only need it to self correct when we overflowed the Int.
 
 Day 5:
 https://chat.openai.com/share/5308dad8-8ede-43fd-97a7-e7710857818d
@@ -26,7 +16,22 @@ I had to give it the insight to reverse the problem, and then it got it right aw
 part1 with this "insight" and caused it to run for over a minute.  Once I asked it to stick with brute force for part1
 and the reverse approach for part2, the whole thing ran in a couple seconds.
 
-Day 6:
-https://chat.openai.com/share/d8014b5d-83ce-45b4-a22d-b3e1ba1232e4
-It got the answer for part1 fairly quickly after stumbling on the input format and a few compiler errors.
-Part2 was pretty straightforward (surprisingly), really only need it to self correct when we overflowed the Int.
+Day 4:
+https://chat.openai.com/share/dd553f51-cfd8-40cc-8d44-ff0853647144
+Generated compiler errors again with type ambiguity on sumOf. It got the solution eventually by using a different approach.
+When doing part2 it omitted part1 again, even though I specifically told it not to do that.
+It got it on the first try though, but had some unused code I asked it to remove.
+
+Day 3:
+https://chat.openai.com/share/0fd4a464-d61d-4e81-98f4-ffa3b9ab928c
+Got both parts wrong on initial tries, but interestingly was able to correct both with little
+to no logic input other than it being wrong.  It did need me to provide the full input to see
+that there were more "symbols" than just the ones in the test input.
+
+Day 2:
+https://chat.openai.com/share/3ac399bd-4796-4f7f-82d8-caa70d16588d
+Got part 1 on first try, had help it with several compiler errors for part 2, but it had no logic issues
+
+Day 1:
+https://chat.openai.com/share/3ac399bd-4796-4f7f-82d8-caa70d16588d
+Got part 1 on first try, had to basically provide the answer for part 2
