@@ -1,6 +1,8 @@
 Day 9:
-
-
+https://chat.openai.com/share/374c8e76-5d46-4650-9436-ec68432e1b31
+It got part1 after a few attempts of failing the check after i prompted it to add debugs and
+provided the output.  It could never pass the test input for part2 after numerous attempts. It
+got it right away once I gave it the insight to just reverse the input and use part1
 
 Day 8:
 https://chat.openai.com/share/cdf86f9b-c70c-49fe-8bba-68cff1a485aa
