@@ -1,7 +1,13 @@
 Day 7:
-
+https://chat.openai.com/share/9e9ada63-5243-4ad5-aa1e-54db4858a579
 Lots of rounds of compiler errors for some reason.  Then it got to a solution to the test input that failed the full file
 and gave up, telling me tips for how to debug.  I then provided it the full input and it said there was too much to analyze.
+It only got the right answer for part1 once i told it to use a comparator and add printouts.  It repeatedly included
+an extra "main()" at the end of the file for some reason.  And then... it did this:
+// No extra main() call at the end
+It was never able to get a working solution for the full input and barely got it working for the test input.
+You've reached the current usage cap for GPT-4. You can continue with the default model now, or try again after 9:00 PM.
+
 
 Day 6:
 https://chat.openai.com/share/d8014b5d-83ce-45b4-a22d-b3e1ba1232e4
