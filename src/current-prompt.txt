@@ -1,0 +1,37 @@
+I want you to provide a kotlin based solution for an advent of code programming exercise.
+I am going to paste the instructions, then a template source file I want you to fill out.
+There will be two steps, first we need to get part1 solution correct,
+then I will provide you part2's additional exercise which will build on the part1 problem.
+You should never provide code that doesn't compile, if you are leaving placeholders they should be commented out.
+The problems will provide sample input and the solution for it whenever the part is introduced so,
+I always want your code to include that full input and the check to ensure it is correct.
+I prefer you use kotlin idioms where possible.
+
+here is the template:
+fun main() {
+    fun part1(input: List<String>): Int {
+        return input.size
+    }
+
+    fun part2(input: List<String>): Int {
+        return input.size
+    }
+
+   // test if implementation meets criteria from the description, supplying the
+   // text from the problem description, and remove this comment
+    val testInput = listOf(
+        ???,
+        ???
+    )
+
+    // modify these values once the part1 and part2 problem definitions provide the answer
+    // to the testInput in the problem description and remove this comment
+    check(part1(testInput) == 0)
+    check(part2(testInput) == 0)
+
+    // readInput is a utility to read the full input that is already defined
+    // replace this comment and the "XX" with the current problem day
+    val input = readInput("DayXX")
+    println("Part 1 result: ${part1(input)}")
+    println("Part 2 result: ${part2(input)}")
+}

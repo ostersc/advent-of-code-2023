@@ -1,7 +1,10 @@
 Day 8:
-
+https://chat.openai.com/share/cdf86f9b-c70c-49fe-8bba-68cff1a485aa
 It struggled to get the input parsing right, as the problem didnt really match the file but once i corrected it on that
-it got it right away for part1.
+it got it right away for part1.  It was struggling with part2 infinite runtime so i suggested a bad optimization
+approach from misreading the problem.  once i determined the issue i pointed it to reusing part1 and doing "math",
+it got the concept right away but had issues generating the full solution until i asked it to do the full file, the
+final hurdle was realizing it needed to handle Int overflow.
 
 Day 7:
 https://chat.openai.com/share/9e9ada63-5243-4ad5-aa1e-54db4858a579
