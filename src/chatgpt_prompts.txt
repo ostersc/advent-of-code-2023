@@ -1,3 +1,7 @@
+Day 9:
+
+
+
 Day 8:
 https://chat.openai.com/share/cdf86f9b-c70c-49fe-8bba-68cff1a485aa
 It struggled to get the input parsing right, as the problem didnt really match the file but once i corrected it on that
