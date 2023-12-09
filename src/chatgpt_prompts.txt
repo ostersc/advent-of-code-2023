@@ -1,3 +1,8 @@
+Day 8:
+
+It struggled to get the input parsing right, as the problem didnt really match the file but once i corrected it on that
+it got it right away for part1.
+
 Day 7:
 https://chat.openai.com/share/9e9ada63-5243-4ad5-aa1e-54db4858a579
 Lots of rounds of compiler errors for some reason.  Then it got to a solution to the test input that failed the full file
