@@ -5,7 +5,9 @@ then I will provide you part2's additional exercise which will build on the part
 You should never provide code that doesn't compile, if you are leaving placeholders they should be commented out.
 The problems will provide sample input and the solution for it whenever the part is introduced so,
 I always want your code to include that full input and the check to ensure it is correct.
-I prefer you use kotlin idioms where possible.
+I prefer you use kotlin idioms where possible.  Please generate the full source file whenever you
+make changes to or create multiple new functions, otherwise if you are just modifying a single function
+you can simply provide the source for that function.
 
 here is the template:
 fun main() {

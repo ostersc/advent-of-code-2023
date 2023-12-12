@@ -1,3 +1,12 @@
+Day 11:
+
+
+Day 10:
+https://chat.openai.com/share/1fe379cc-2c11-42e6-b557-9688b2e44966
+Fail. Interestringly it started out with psuedocode and asked to see the full input before even trying.  It landed on
+an answer for the full input file it thought was correct and didn't make changes when told it was wrong. When
+pressed, it indicated this was a "maximum height water catchment problem" and then got stuck on solving that problem.
+
 Day 9:
 https://chat.openai.com/share/374c8e76-5d46-4650-9436-ec68432e1b31
 It got part1 after a few attempts of failing the check after i prompted it to add debugs and
